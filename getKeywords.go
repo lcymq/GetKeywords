@@ -4,15 +4,14 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"path/filepath"
 	"strings"
 )
 
-func main() {
+// func main() {
 
-	root := "."
-	filepath.Walk(root, walkfunc)
-}
+// 	root := "."
+// 	filepath.Walk(root, walkfunc)
+// }
 
 func walkfunc(path string, info os.FileInfo, err error) error {
 
